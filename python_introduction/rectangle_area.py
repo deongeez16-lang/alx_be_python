@@ -1,5 +1,4 @@
 length=10
 width=5
-Area = length * width
-print("The area of the rectangele is:", Area)
-
+area = length * width
+print("The area of the rectangele is:" ,area)
