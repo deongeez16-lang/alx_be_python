@@ -1,11 +1,24 @@
-from book_class import Book
+
+from class_static_methods_demo import Calculator
 
 def main():
-    my_book = Book("1984", "George Orwell", 1949)
-    print(my_book)
-    print(repr(my_book))
-    del my_book
+    # Using the static method
+    sum_result = Calculator.add(10, 5)
+    print(f"The sum is: {sum_result}")
+
+    # Using the class method
+    product_result = Calculator.multiply(10, 5)
+    print(f"The product is: {product_result}")
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
+
 
